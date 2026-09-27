@@ -87,8 +87,8 @@ export interface InvitationConfig {
 const config: InvitationConfig = {
   baby: {
     name: 'Ni Luh Allora Grizelyn Putri Kaylena',
-    photoPrimary: '/images/foto1.png',
-    photoSecondary: '/images/foto2.png',
+photoPrimary: `${import.meta.env.BASE_URL}images/foto1.png`,
+photoSecondary: `${import.meta.env.BASE_URL}images/foto2.png`,
   },
 
   ceremony: {
